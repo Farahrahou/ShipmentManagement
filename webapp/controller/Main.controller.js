@@ -28,14 +28,15 @@ sap.ui.define([
                     });
             }, 
             handleFilterButtonPressed: function () {
-                SortAndFilterHelper.handleSortButtonPressed(this, "ap.customerapplication.fragments.sortDialog")
+                SortAndFilterHelper.handleSortButtonPressed(this, "ap.shipmentmanagement.fragments.sortDialog")
            
             },
             handleSortDialogConfirm: function (oEvent) {
-                SortAndFilterHelper.handleSortDialogConfirm(oEvent, this, "customersTable")
+                SortAndFilterHelper.handleSortDialogConfirm(oEvent, this, "shipmentsTable")
             },
             handleFilterDialogConfirm: function (oEvent) {
-                SortAndFilterHelper.handleFilterDialogConfirm(oEvent, this, 'customersTable')
+                SortAndFilterHelper.handleFilterDialogConfirm(oEvent, this, 'shipmentsTable')
+                // shipment
             },
         });
     });

@@ -3,6 +3,7 @@ sap.ui.define(['sap/ui/Device','sap/ui/model/Sorter',
 'sap/ui/model/Filter'], function (Device, Sorter, Fragment, Filter) {
     "use strict";
 // sortering en fitering
+
     return {
         handleSortButtonPressed: function (oController, sFragment) {
             this.getViewSettingsDialog(sFragment, oController)

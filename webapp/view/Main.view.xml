@@ -70,7 +70,6 @@
                         <cells>
                             <ObjectIdentifier
                                 title="{Tknum}"
-
                             />
                             <Text text="{PlannedDate}" />
                             <Text text="{Tplst}" />
